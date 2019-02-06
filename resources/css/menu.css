@@ -1,0 +1,43 @@
+
+body {
+    background-color:#272727;
+    color:#ffffff;
+}
+
+.pubLogo {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:center;
+    font-size:46px;
+    height:180px;
+    line-height: 180px;
+}
+.pubDescription {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size:22px;
+}
+
+
+.beerListItem {
+    font-size:26px;
+    border-top:5px solid #ffffff;
+    min-height: 80px;
+    line-height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.beerListItem.oos > div {
+    opacity:0.2;
+}
+.beerListItem.oos > div:not(:first-child)  {
+    text-decoration: line-through;
+}
+
+.beerListItem .beerRowId {
+    font-size: 32px;
+    text-align: center;
+}
+
+.beerListItem .beerName {
+    font-size:34px;
+}
