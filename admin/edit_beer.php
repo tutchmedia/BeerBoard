@@ -51,12 +51,12 @@
  
         <tr>
             <td>Name</td>
-            <td><input type='text' name='name' class='form-control' value='<?php echo $beer->name; ?>'/></td>
+            <td><input type='text' name='name' class='form-control' value='<?php echo $beer->name; ?>' required/></td>
         </tr>
  
         <tr>
             <td>Sale Price</td>
-            <td><input type='text' name='salePrice' class='form-control' value='<?php echo $beer->salePrice; ?>'/></td>
+            <td><input type='text' name='salePrice' class='form-control' value='<?php echo $beer->salePrice; ?>' required/></td>
         </tr>
 
         <tr>
@@ -71,7 +71,7 @@
 
         <tr>
             <td>Alcohol Percentage</td>
-            <td><input type='text' name='alcoholPercentage' class='form-control' value='<?php echo $beer->alcoholPercentage; ?>'/></td>
+            <td><input type='text' name='alcoholPercentage' class='form-control' value='<?php echo $beer->alcoholPercentage; ?>' required/></td>
         </tr>
 
         <tr>
